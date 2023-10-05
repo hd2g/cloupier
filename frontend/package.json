@@ -4,6 +4,7 @@
   "devDependencies": {
     "esbuild": "^0.19.4",
     "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
     "purescript": "^0.15.11",
     "spago": "^0.21.0"
   },
@@ -11,6 +12,6 @@
     "build": "spago build",
     "test": "spago test",
     "bundle": "spago bundle-app -t ./dist/index.js",
-    "serve": "http-server ./dist -p 3000"
+    "serve": "live-server ./dist --no-browser --port=3000",
   }
 }
