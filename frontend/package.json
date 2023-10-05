@@ -11,9 +11,10 @@
   },
   "scripts": {
     "build": "spago build",
-    "test": "spago test",
     "bundle": "spago bundle-app -t ./dist/index.js",
     "serve": "live-server ./dist --no-browser --port=3000",
+    "repl": "spago repl",
     "fmt": "purs-tidy format-in-place ./src/**/*.purs ./test/**/*.purs",
+    "test": "spago test"
   }
 }
