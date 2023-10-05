@@ -6,6 +6,7 @@
     "http-server": "^14.1.1",
     "live-server": "^1.2.2",
     "purescript": "^0.15.11",
+    "purs-tidy": "^0.10.0",
     "spago": "^0.21.0"
   },
   "scripts": {
@@ -13,5 +14,6 @@
     "test": "spago test",
     "bundle": "spago bundle-app -t ./dist/index.js",
     "serve": "live-server ./dist --no-browser --port=3000",
+    "fmt": "purs-tidy format-in-place ./src/**/*.purs ./test/**/*.purs",
   }
 }
