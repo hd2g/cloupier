@@ -10,3 +10,4 @@
 /.spago
 /dist/*
 !/dist/index.html
+!/dist/style.css
