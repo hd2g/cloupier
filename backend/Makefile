@@ -1,4 +1,4 @@
-.PHONY: all build test repl download
+.PHONY: all build test repl download fmt
 
 all: build test
 
@@ -13,3 +13,6 @@ repl:
 
 download:
 	@cabal build --only-download
+
+fmt:
+	@stylish-haskell -i -r src app test
