@@ -22,9 +22,9 @@ common defaults
 library
   import: defaults
   exposed-modules:
-    Data.Job
-    Data.Motivation
-    Data.Progress
+    Model.Job
+    Model.Motivation
+    Model.Progress
   build-depends:
       base ^>=4.16.4.0
     , lens

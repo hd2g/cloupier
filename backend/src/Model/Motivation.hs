@@ -1,8 +1,8 @@
-module Data.Motivation where
+module Model.Motivation where
 
 import Protolude
 
-import Data.Job (ID)
+import Model.Job (ID)
 
 data Motivation
   = Motivation

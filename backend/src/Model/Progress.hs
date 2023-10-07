@@ -1,8 +1,8 @@
-module Data.Progress where
+module Model.Progress where
 
 import Protolude
 
-import Data.Job (ID)
+import Model.Job (ID)
 
 data Progress
   = Progress

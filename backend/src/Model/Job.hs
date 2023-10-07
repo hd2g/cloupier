@@ -1,4 +1,4 @@
-module Data.Job where
+module Model.Job where
 
 import Protolude
 
