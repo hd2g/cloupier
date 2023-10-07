@@ -13,6 +13,7 @@ repl:
 
 download:
 	@cabal build --only-download
+	@cabal build --only-dependencies
 
 fmt:
 	@stylish-haskell -i -r src app test
