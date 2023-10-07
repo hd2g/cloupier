@@ -14,12 +14,22 @@ common defaults
     protolude
   default-extensions:
     NoImplicitPrelude
+    DataKinds
+    TypeFamilies
+    TypeOperators
+    OverloadedStrings
 
 library
   import: defaults
   exposed-modules:
     Data.Job
-  build-depends:    base ^>=4.16.4.0
+    Data.Motivation
+    Data.Progress
+  build-depends:
+      base ^>=4.16.4.0
+    , lens
+    , time
+    , uuid
   hs-source-dirs:   src
   default-language: GHC2021
 
